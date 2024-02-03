@@ -68,10 +68,7 @@ const PostForm = ({ post, action }: PostFormProps) => {
 
     navigate('/')
   }
-
-  console.log(post?.imageUrl);
   
-
   return (
     <Form {...form}>
       <form

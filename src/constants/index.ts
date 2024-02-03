@@ -15,11 +15,6 @@ export const sidebarLinks = [
     label: "People",
   },
   {
-    imgURL: "/assets/icons/bookmark.png",
-    route: "/saved",
-    label: "Saved",
-  },
-  {
     imgURL: "/assets/icons/folders.png",
     route: "/create-post",
     label: "Create Post",
@@ -38,9 +33,9 @@ export const bottombarLinks = [
     label: "Explore",
   },
   {
-    imgURL: "/assets/icons/bookmark.png",
-    route: "/saved",
-    label: "Saved",
+    imgURL: "/assets/icons/people.png",
+    route: "/all-users",
+    label: "People",
   },
   {
     imgURL: "/assets/icons/folders.png",
